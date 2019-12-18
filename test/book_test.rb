@@ -28,5 +28,4 @@ class BookTest < Minitest::Test
     assert_equal "1960", @book.publication_year
   end
 
-
 end
