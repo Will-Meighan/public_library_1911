@@ -30,7 +30,7 @@ class AuthorTest < Minitest::Test
 
     villette = @charlotte_bronte.write("Villette", "1853")
 
-    # assert_equal [jane_eyre, villette], @charlotte_bronte.books
+    assert_equal [jane_eyre, villette], @charlotte_bronte.books
   end
 
 end
