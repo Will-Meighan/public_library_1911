@@ -1,3 +1,5 @@
+require_relative 'book'
+
 class Author
 
   attr_reader :first_name,
